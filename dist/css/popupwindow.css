@@ -1,0 +1,28 @@
+﻿body {
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Position it over the page content */
+    z-index: 1; /* Ensure it appears on top of other elements */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Enable scrolling if the content is larger than the modal */
+    background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent black background */
+}
+
+/* Style for the modal content */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* Center the modal on the screen */
+    padding: 20px;
+    border: 1px solid #888;
+    max-width: 600px; /* Set a maximum width if desired */
+}
+
+/* Style to hide the scrollbar of the page when the modal is open */
+body.modal-open {
+    overflow: hidden;
+}

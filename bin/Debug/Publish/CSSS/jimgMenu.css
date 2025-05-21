@@ -1,0 +1,102 @@
+.jimgMenu {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	overflow-x: hidden;
+	ooverflow-y: hidden;
+	
+	float: none;
+	padding: 20px;
+
+}
+
+.jimgMenu ul {
+	list-style: none;
+	margin: 0px;
+	display: block;
+	height: 200px;
+	width: 100%;
+	
+	}
+
+.jimgMenu ul li {
+	float: left;
+}
+
+.jimgMenu ul li a {
+	text-indent: -1000px;
+	background:#FFFFFF none repeat scroll 0%;
+	border-right: 2px solid #fff;
+	cursor:pointer;
+	display:block;
+	overflow:hidden;
+	width:35px;
+	height: 235px;
+}
+
+.jimgMenu ul li.landscapes a {
+	background: url(images/landscapes.jpg) repeat scroll 0%;
+		min-width:220px;
+	
+}
+
+.jimgMenu ul li.people a {
+	background: url(images/people.jpg) repeat scroll 0%;
+}
+
+.jimgMenu ul li.nature a {
+	background: url(images/nature.jpg) repeat scroll 0%;
+}
+.jimgMenu ul li.abstract a {
+	background: url(images/abstract.jpg) repeat scroll 0%;
+}
+/*-------------------------*/
+.jimgMenu ul li.landscapes1 a {
+	background: url(images/urban.jpg) repeat scroll 0%;
+}
+
+.jimgMenu ul li.people1 a {
+	background: url(images/262.JPG) repeat scroll 0%;
+}
+
+.jimgMenu ul li.nature1 a {
+	background: url(images/182.JPG) repeat scroll 0%;
+}
+
+.jimgMenu ul li.urban1	 a {
+	background: url(images/270.JPG) repeat scroll 0%;
+	min-width:220px;
+	
+}
+
+/*-------------------------*/
+.jimgMenu ul li.landscapes2 a {
+	background: url(images/243.JPG) repeat scroll 0%;
+	
+}
+
+.jimgMenu ul li.people2 a {
+	background: url(images/294.jpg) repeat scroll 0%;
+}
+
+.jimgMenu ul li.nature2 a {
+	background: url(images/258.jpg) repeat scroll 0%;
+}
+.jimgMenu ul li.abstract2 a {
+	background: url(images/110.JPG) repeat scroll 0%;
+}
+
+.clear {
+	clear: both;
+}
+
+#topmenu{
+	background-color: #999999;
+	height: 55px;
+	width: 100%;
+
+
+}
+topmenu.p{
+
+}
